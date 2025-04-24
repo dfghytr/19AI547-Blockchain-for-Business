@@ -1,16 +1,27 @@
+# Ex No: 3 - Supply Chain Transparency for Luxury Goods
+## Name : Abdul kalaam k m
+## Reg No: 212223230003
+## Date : 21-04-2025
 # Aim:
 To develop a smart contract that tracks the supply chain of luxury goods, ensuring authenticity.
 # Algorithm:
-The manufacturer records product creation details on-chain.
+## step 1:
+Manufacturer inputs productId and name, and registers the product if it's not already registered.
+## step 2:
+Contract stores the product with name, msg.sender as currentOwner, and sets verified = true.
+## step 3:
+For ownership transfer, contract checks if msg.sender is the current owner of the product.
+## step 4:
+If valid, contract updates currentOwner to the new owner's address and emits an event.
+## step 5:
+Repeat the ownership transfer at each supply chain checkpoint by authorized parties.
+## step 6:
+Buyer or verifier inputs productId to retrieve product details from the smart contract.
+## step 7:
+Contract returns the product’s name, currentOwner, and verified status for authenticity check.
+## step 8:
+All actions (registration and transfers) are permanently recorded on-chain for transparency and trust.
 
-
-The product moves through different supply chain checkpoints.
-
-
-The ownership of the product can be transferred securely.
-
-
-Buyers can verify the product’s authenticity.
 
 
 # Program:
@@ -50,12 +61,15 @@ contract LuxurySupplyChain {
 ```
 # Expected Output:
 A luxury good (e.g., a Rolex watch) is registered on-chain.
+![Screenshot 2025-04-24 143529](https://github.com/user-attachments/assets/cdfd7bd7-efa6-46d3-80e8-85707d21ef0f)
 
 
 Ownership is transferred at every checkpoint.
+![Screenshot 2025-04-24 143541](https://github.com/user-attachments/assets/1eb40ae6-7716-4b77-ad8f-6e10fb64fea3)
 
 
 Buyers can check the authenticity before purchasing.
+![Screenshot 2025-04-24 143549](https://github.com/user-attachments/assets/d2297574-60f2-4b94-a77a-cfb90e8d6283)
 
 
 # High-Level Overview:
@@ -64,5 +78,6 @@ Helps prevent counterfeit luxury goods.
 
 Teaches real-world supply chain use cases.
 
-# RESULT : 
 
+# RESULT : 
+A smart contract that tracks the supply chain of luxury goods and ensuring authenticity is successfully executed.
