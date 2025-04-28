@@ -21,7 +21,7 @@ Once voting ends, the contract reveals the final tally without linking votes to 
 
 
 # Program:
-```
+
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
@@ -55,12 +55,14 @@ contract ZKVoting {
     }
 }
 
-```
+
 # Expected Output:
 Voters commit their votes privately.
+![Screenshot (12)](https://github.com/user-attachments/assets/3a129a53-dd9f-4880-aeca-1596cb048def)
 
 
 When revealed, the contract verifies correctness but keeps votes anonymous.
+![Screenshot (11)](https://github.com/user-attachments/assets/7bcb09f8-ab58-4e84-8300-8a37310f8c2d)
 
 
 Final result is publicly verifiable without exposing individual votes.
@@ -77,3 +79,4 @@ Prevents vote tampering while maintaining voter privacy.
 Mimics real-world ZK voting applications in governance and DAOs.
 
 # RESULT: 
+thus the program has been ex cuted successfully.
