@@ -3,39 +3,42 @@
 # To create a smart contract that integrates AI logic for automated negotiation in decentralized commerce. The contract adjusts price and conditions dynamically based on real-time market trends using an on-chain AI model.
 
 # Algorithm:
-## Step 1: AI-Powered Dynamic Pricing
+## Step 1:
+AI-Powered Dynamic Pricing
 Seller lists an item with a minimum price and negotiation range.
 
-
+## Step 2: 
 Buyer submits an offer price.
 
-
+## Step 3:
 AI logic (simulated using Solidity algorithms) evaluates the price based on:
 
-
+## Step 4: 
 Market demand (tracked using on-chain transactions).
 
-
+## Step 5:  
 Historical transaction data.
-
+## Step 6:
 
 Time-based price fluctuations.
 
 
-## Step 2: Smart Contract Counteroffer
+## Step 7: Smart Contract Counteroffer
 The contract automatically generates a counteroffer if the buyer’s price is within the negotiation range.
 
 
 If the buyer accepts, the transaction is executed on-chain.
 
 
-## Step 3: Settlement and Price Learning
+## Step 8: Settlement and Price Learning
 Every completed transaction updates the price learning algorithm to refine future pricing decisions.
 
 
 
 # Program:
 ```
+ Name : Abdul kalaam k m
+ Reg no : 212223230003
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
@@ -94,12 +97,15 @@ contract AIPoweredNegotiation {
 # Expected Output:
 Buyers submit offers, and the contract auto-negotiates the price.
 
+![image](https://github.com/user-attachments/assets/620f6491-7f2f-4798-91f5-b45d3a54dffd)
 
 If the buyer’s offer is fair, the deal is executed.
-
+![image](https://github.com/user-attachments/assets/1e43896c-1a21-4893-afc9-93f46f8f7667)
 
 If the offer is too low, the contract suggests a counteroffer.
 
+
+![image](https://github.com/user-attachments/assets/d03d4689-7577-4682-9bee-70f52b8b2722)
 
 
 # High-Level Overview:
@@ -116,4 +122,4 @@ Inspired by AI-enhanced commerce and eBay-like decentralized auctions.
 
 # RESULT:
 
-
+Thus,Zero-Knowledge Proof (ZK) Private Voting System has been created and successfully executed.
